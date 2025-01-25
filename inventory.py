@@ -1,3 +1,5 @@
+from product import Product # Import Product class
+
 class Inventory:
     
     def __init__(self):
