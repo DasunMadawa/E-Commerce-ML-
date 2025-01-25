@@ -52,3 +52,10 @@ prod_price = float(input("Enter Product Price: "))
 new_product = Product(name=prod_name, price=prod_price, quantity=prod_quantity)
 print(new_product.get_details())
 print("----------- Product Created -----------------------------")
+
+##update product price
+
+new_product.update_price(new_price=float(input("Enter New Product Price: ")))
+print(new_product.get_details())
+
+print("----------------------------------------------------------")
