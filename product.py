@@ -5,7 +5,7 @@ class Product:
         self.quantity = quantity
         
     def get_details(self):
-        return f"{self.name} - ${self.price} - {self.quantity}"
+        return f"Product : {self.name} - Rs.{self.price} - quantity: {self.quantity}"
     
     def update_price(self, new_price):
         self.price = new_price
