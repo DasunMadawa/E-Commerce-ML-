@@ -16,3 +16,7 @@ class Customer:
     def get_details(self):
         return f"Name: {self.name}\nAddress: {self.address}\nContact: {self.contact}"
     
+    
+# customer1 = Customer(name="Customer", address="Horana", contact="00000000000000")
+# print(customer1.get_details())
+
