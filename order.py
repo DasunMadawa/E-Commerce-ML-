@@ -1,7 +1,7 @@
 from product import Product  # Import Product class
 
 class Order:
-    def _init_(self, customer, order_id=None):
+    def _init_(self, customer, order_id):
         self.customer = customer
         self.order_id = order_id
         self.products = []
