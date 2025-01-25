@@ -4,7 +4,7 @@ class Customer:
         self.address = address
         self.contact = contact
     
-    def set_name(self, name, address, contact):
+    def set_name(self, name):
         self.name = name
         
     def set_address(self, address):
